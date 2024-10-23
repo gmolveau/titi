@@ -25,6 +25,7 @@ jobs:
 
     - name: Install dependencies
       run: |
+        cd backend
         pipenv install --dev
 
     - name: Run linting and type checking using Makefile
